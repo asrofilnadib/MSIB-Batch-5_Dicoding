@@ -1,0 +1,12 @@
+{
+  "name": "05-javascript",
+  "version": "1.0.0",
+  "description": "This is a Javscript module for learning purpose",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asrofil Nadib",
+  "license": "ISC"
+}

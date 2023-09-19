@@ -1,0 +1,14 @@
+{
+  "name": "latihantesting",
+  "version": "1.0.0",
+  "description": "folder to exercise jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Asrofil Nadib",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}

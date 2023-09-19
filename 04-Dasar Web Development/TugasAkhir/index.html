@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Web Site</title>
+
+    <!--My own css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--icon from https://favicon.io/-->
+    <link rel="icon" href="images/favicon.png" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header and Navigation Bar-->
+    <header class="top-container">
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#contact-me" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main content-->
+    <main>
+      <article class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+        <h1 class="name">Hi, my name is Nadib</h1>
+        <h2 class="description">I'm a student at Esa Unggul University</h2>
+        <img class="btm-cloud" src="images/cloud.png" alt="" />
+        <img class="mountain" src="images/mountain.png" alt="" />
+      </article>
+
+      <article class="middle-container">
+        <aside class="profile" id="about">
+          <img src="images/nadib.JPG" alt="asrofil nadib" width="200px"/>
+          <h2>Hello.</h2>
+          <p>
+            I'm a student of Software Engineering at Esa Unggul University.
+            i❤️listening to music and do workouts💪🏼.
+          </p>
+        </aside>
+        <hr />
+
+        <article class="skills" id="skills">
+          <h3 class="skills">My Skills.</h3>
+          <article class="skill-row-development">
+              <img
+                class="development"
+                src="images/development.png"
+                alt=""
+                width="299"
+              />
+              <h3 class="development">Design and Development</h3>
+              <p class="skill-desc development">
+                When I was 16 years old, my interest in coding was piqued as I
+                aspired to create video games. Since then, I have amassed a
+                wealth of experience in designing and developing various mobile
+                and web applications.
+              </p>
+          </article>
+          <article class="skill-row-excel">
+            <img class="excel" src="images/stats.png"/>
+            <h3 class="excel">Excel Expert VBA</h3>
+            <p class="skill-desc excel">
+              As an Excel expert, I can create custom VBA applications to
+              automate complex tasks and increase productivity for your
+              business.
+            </p>
+          </article>
+        </article>
+        <hr />
+
+        <article class="contact-me" id="contact-me">
+          <h3>Get In Touch</h3>
+          <h4>Hey, if you want to work or hire me.</h4>
+          <p>
+            Feel free to contact me. It would be my pleasure to work with you.
+          </p>
+          <a class="btn" href="form/form.html">CONTACT ME</a>
+        </article>
+      </article>
+    </main>
+
+    <!--Footer and Copyright-->
+    <footer class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="#">Website</a>
+      <p>© Created by Asrofil Nadib</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
